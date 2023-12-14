@@ -1,3 +1,3 @@
 function sendEmail() {
-    window.location.href = "mailto:johan.stromberg@pucpr.edu.br";
+    window.location.href = "mailto:johanstrr@gmail.com";
 }
