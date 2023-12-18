@@ -69,7 +69,7 @@ header{
 }
 
 .arrows{
-    padding: 1rem;
+    height: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,8 +189,8 @@ main{
     width: 100%;
 }
 #arrow1, #arrow2{
-    height: 5rem;
-    width: 7rem;   
+    height: 100%;
+    width: 100%;   
 }
 
 #contactButton{
