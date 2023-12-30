@@ -8,105 +8,86 @@
     <title>Document</title>
 </head>
 <body id="home">
-    <div class="body">
-        <header class="header">
-            <div class="header-img-container">
-                <a href="https://github.com/johanrecaman" target="_blank" class="header-img-link">
-                    <img id="logo" src="./images/examplelogo.png">
-                </a> 
-            </div>
-            <div class="headerLinks">
+    <header>
+        <div class="header">
+            <div class="header-title">Johan Recaman</div>
+            <div class="header-links">
                 <a href="#home" target="_self">Home</a>
                 <a href="#projects" target="_self">Portfolio</a>
                 <a href="#about" target="_self">About</a>
             </div>
-            <div class="btn-container">
-                <button id="contactButton" onclick="sendEmail()">Get in Touch</button>
-            </div>
-        </header>
-    <div class="headerContent">  
-        <div>
-            <h1>Johan <br> Recaman</h1>
-            <i id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Cras bibendum urna purus, <br>ac ullamcorper elit tincidunt ac.
-                Curabitur pharetra felis urna, nec vulputate nisl rhoncus id.
-            </i>
         </div>
-         <div class="arrows">
-            <img id="arrow1" src ="./images/arrow.svg">
-            <img id="arrow2" src ="./images/arrow.svg">
-         </div>
-    </div>
+        <div class="header-content">  
+            <div>
+                <img id="about-img" src="./images/profileph.png">
+            </div>
+            <div class="header-about">
+                <p>Hello, I'm</p>
+                <h1>Johan Recaman</h1>
+                <h2>Developer</h2>
+                <div>
+                    <a href="">
+                        <img src="./images/github.svg" class="contact-link">
+                    </a>
+                    <a href="">
+                        <img src="./images/linkedin.svg" class="contact-link">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
      <main>
-        <div class="title" id="projects">
-            <h1>Projects</h1>
-        </div>
-        <div class="card-container">
-            <a href="https://github.com/johanrecaman/" class="card">
-                <div class="projet-img-container">
-                    <img class="projectImage" src="./images/placeholder.webp">
-                </div>
-                <div class="cardContent">Example Project</div>
-            </a>
-            <a href="https://github.com/johanrecaman/" class="card">
-                <div class="project-img-container">
-                    <img class="projectImage" src="./images/placeholder.webp">
-                </div>
-                <div class="cardContent">Example Project</div>
-            </a>
-            <a href="https://github.com/johanrecaman/" class="card">
-                <div class="project-img-container">
-                    <img class="projectImage" src="./images/placeholder.webp">
-                </div>
-                <div class="cardContent">Example Project</div>
-            </a>
-        </div>
-        <div class="title" id="about">
-            <h1>About me</h1>
-        </div>
-        <div class="about-container">
-            <img id="about-img" src="./images/profileph.png">
+        <section id="projects">
+            <h1 class="title">Projects</h1>
+            <div class="card-container">
+                <a href="https://github.com/johanrecaman/" class="card">
+                    <div class="projet-img-container">
+                        <img class="project-img" src="./images/placeholder.webp">
+                    </div>
+                    <div class="card-content">Example Project</div>
+                </a>
+                <a href="https://github.com/johanrecaman/" class="card">
+                    <div class="project-img-container">
+                        <img class="project-img" src="./images/placeholder.webp">
+                    </div>
+                    <div class="card-content">Example Project</div>
+                </a>
+                <a href="https://github.com/johanrecaman/" class="card">
+                    <div class="project-img-container">
+                        <img class="project-img" src="./images/placeholder.webp">
+                    </div>
+                    <div class="card-content">Example Project</div>
+                </a>
+            </div>
+        </section>
 
-            <div class="about-desc-container">
-                <div>
-                    <div class="about-title">
-                        <div class="square"></div>
-                        <p>Placeholder</p>
-                    </div>
-                    <div class="desc-text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Cras bibendum urna purus, ac ullamcorper elit tincidunt ac. 
-                            Curabitur pharetra felis urna, nec vulputate nisl rhoncus id. 
-                            Nullam vel ex blandit quam placerat sollicitudin in et eros. 
-                            Cras interdum diam porttitor porttitor dignissim.
-                        </p>
-                    </div>
-                </div>
-                <div>
-                    <div class="about-title">
-                        <div class="square"></div>
-                        <p>Placeholder</p>
-                    </div>
-                    <div class="skill-text">
-                        <p>Ruby</p>
-                        <p>Rails</p>
-                        <p>Javascript</p>
-                        <p>Python</p>
-                        <p>PHP</p>
-                        <p>MySql</p>
-                    </div>
-                </div>
-                <div>
-                    <div class="about-title">
-                        <div class="square"></div>
-                        <p>Contact</p>
-                    </div>
-                    <div class="contact-text">
-                        <p>Email: johanstrr@gmail.com</p>
+        <section>
+
+        </section>
+
+        <section id="about">
+            <h1 class="title">About me</h1>
+            <div class="about-content-container">
+                <img id="about-img" src="./images/profileph.png">
+    
+                <div class="about-desc-container">
+                    <div>
+                        <div class="about-title">
+                            <div class="square"></div>
+                            <p>Placeholder</p>
+                        </div>
+                        <div class="desc-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Cras bibendum urna purus, ac ullamcorper elit tincidunt ac. 
+                                Curabitur pharetra felis urna, nec vulputate nisl rhoncus id. 
+                                Nullam vel ex blandit quam placerat sollicitudin in et eros. 
+                                Cras interdum diam porttitor porttitor dignissim.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 </body>
 </html>

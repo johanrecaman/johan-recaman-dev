@@ -5,7 +5,7 @@ html {
   }
   
 body{
-    background-color:#090909;
+    background-color:white;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -15,92 +15,91 @@ body{
 
 p{
     margin: 0;
-    color: white;
+    color: black;
 }
 i{
-    color: white;
+    color: black;
 }
 a{
     text-decoration: none;
-    color: white;
+    font-size: 1.5rem;
+    color: black;
 }
 a:hover{
     color: blueviolet;
 }
 
 h1{
-    color: white;
+    margin: 0;
+    color: black;
     font-size: 7rem;
-    margin-bottom: 0;
 }
 h2{
     margin: 0;
-    color: white;
+    color: black;
 }
+
 header{
+    height: 100vh;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+}
+.header{
     position: sticky;
     top: 0;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    background-color: black;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: white;
 }
 
-.header-img-container{
-    justify-self: start;
-    width: 5rem;
-    padding: 1rem;
+.header-title{
+    font-size: 1.5rem;
+    color: black;
 }
-
-.headerLinks {
-    justify-self: center;
+.header-links {
     font-size: 1.5rem;
     display: flex;
     gap: 2rem;
 }
 
-.btn-container{
-    justify-self: end;
+.header-content{
     display: flex;
-    padding: 1rem;
-    width: 10rem;
-}
-
-.arrows{
-    height: 5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: transparent;
-}
-
-.headerContent{
-    display: flex;
-    flex-direction: column;
     gap: 3rem;
-    padding: 0 5rem 0 5rem;
+    justify-content: center;
+    padding: 10rem 0 10rem 0;
 }
-
-.content{
-    height: 500px;
-    width: 100%;
+.header-about{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    background-color: #090909;
+    align-items: center;
 }
+.header-about h1{
+    font-size: 2.5rem;
+    color: blueviolet;
+}
+.contact-link{
+    width: 2rem;
+    height: 2rem;
+}
+
 main{
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    background-color:#090909;
+    background-color:white;
 }
+
 .title{
-    padding-top: 5rem;
     text-align: center;
 }
 .title h1{
@@ -109,36 +108,38 @@ main{
 .card-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 3rem;
-    padding: 0 3rem 0 3rem;
+    gap: 5rem;
+    padding: 0 5rem 0 5rem;
 }
 .card{
-    background-color: #151515;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    border: 1px solid black;
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
     transition: transform 0.3s, box-shadow 0.3s;
+    padding: 1rem;
 }
 
 .card:hover{
     transform: scale(1.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    color: white;
+    color: black;
 }
-.cardContent{
+.card-content{
     padding: 1rem;
     display: flex;
     flex-direction: column;
+    color: black;
 }
 
 .project-img-container{
     width: 100%;
 }
-.projectImage{
-    border-radius: 1rem 1rem 0 0;
+.project-img{
+    border-radius: 1rem;
     width: 100%;
     height: 100%;
 }
@@ -151,69 +152,31 @@ main{
 .about-title p{
     font-size: 1.5rem;
     padding: 1rem;
-    color: white;
+    color: blueviolet;
 }
 
-.about-container{
+.about-content-container{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 3rem;
     padding: 3rem;
 }
 
-.about-desc-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-
-}
-.desc-text, .contact-text{
-    color: white;
-    padding-top: 2rem;
-}
-
-.skill-text{
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 3rem;
-    color: white;
-}
-.square{
-    height: 0.5rem;
-    width: 0.5rem;
-    border-radius: 2rem;
-    background-color: white;
-}
-#logo{
-    width: 100%;
-}
-#arrow1, #arrow2{
-    height: 100%;
-    width: 100%;   
-}
-
-#contactButton{
-    padding: 1rem;
-    width: 100%;
-    color: white;
-    background-color: transparent;
-    border: 2px solid blueviolet;
-}
-#contactButton:hover{
-    background-color: blueviolet;
-    color: white;
-}
-
-#desc{
-    color: darkgrey;
-    font-size: 20px;
-}
-#aboutMe{
-    color:white;
-}
 #about-img{
     height: 15rem;
     width: 15rem;
     border-radius: 100%;
 }
+
+.about-desc-container{
+    display: flex;
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.desc-text{
+    color: black;
+    padding-top: 2rem;
+}
+
