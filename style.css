@@ -48,6 +48,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 5rem;
 }
 .header{
@@ -86,6 +87,7 @@ section{
     font-size: 2.5rem;
     color: blueviolet;
 }
+
 .contact-link{
     width: 2rem;
     height: 2rem;
@@ -115,7 +117,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    border: 1px solid black;
+    border: 2px solid blueviolet;
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
@@ -180,3 +182,50 @@ main{
     padding-top: 2rem;
 }
 
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    padding: 2rem;
+    border: 2px solid blueviolet;
+    border-radius: 1rem;    
+}
+
+.contact-item{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.contact-img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.contact-txt{
+    color: #666666;
+}
+
+.contact-txt:hover{
+    color: blueviolet;
+}
+
+.skill-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5rem;
+    row-gap: 3rem;
+    padding: 2rem;
+    border: 2px solid blueviolet;
+    border-radius: 1rem;
+}
+
+.skill-content{
+    display: flex;
+    align-items: center;
+}
+
+.skill-img{
+    width: 2rem;
+    height: 2rem;
+}
