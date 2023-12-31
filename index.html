@@ -9,7 +9,6 @@
 </head>
 <body id="home">
     <header>
-        <div class="header">
             <div class="header-title">Johan Recaman</div>
             <div class="header-links">
                 <a href="#projects" target="_self">Portfolio</a>
@@ -17,27 +16,39 @@
                 <a href="#about" target="_self">About</a>
                 <a href="#contact" target="_self">Contact</a>
             </div>
-        </div>
-        <div class="header-content">  
-            <div>
-                <img id="about-img" src="./images/profileph.png">
-            </div>
-            <div class="header-about">
-                <p>Hello, I'm</p>
-                <h1>Johan Recaman</h1>
-                <h2>Developer</h2>
+        </header>
+        <label class="hamburguer-menu">
+            <input type="checkbox">
+        </label>
+        <aside class="sidebar">
+            <nav>
+                <div>projects</div>
+                <div>skills</div>
+                <div>about</div>
+                <div>contact</div>
+            </nav>
+        </aside>
+    <main>
+        <section>
+            <div class="home-content">  
                 <div>
-                    <a href="">
-                        <img src="./images/github.svg" class="contact-link">
-                    </a>
-                    <a href="">
-                        <img src="./images/linkedin.svg" class="contact-link">
-                    </a>
+                    <img id="about-img" src="./images/profileph.png">
+                </div>
+                <div class="home-about">
+                    <p>Hello, I'm</p>
+                    <h1>Johan Recaman</h1>
+                    <h2>Developer</h2>
+                    <div>
+                        <a href="">
+                            <img src="./images/github.svg" class="contact-link">
+                        </a>
+                        <a href="">
+                            <img src="./images/linkedin.svg" class="contact-link">
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-     <main>
+        </section>
         <section id="projects">
             <h1 class="title">Projects</h1>
             <div class="card-container">
@@ -59,6 +70,9 @@
                     </div>
                     <div class="card-content">Example Project</div>
                 </a>
+            </div>
+            <div class="arrow-container">
+                <img class="arrow" src="./images/arrow.svg" alt="">
             </div>
         </section>
 
@@ -102,6 +116,9 @@
                     <p class="skill-txt">Git</p>
                 </div>
             </div>
+            <div class="arrow-container">
+                <img class="arrow" src="./images/arrow.svg" alt="">
+            </div>
         </section>
 
         <section id="about">
@@ -126,6 +143,9 @@
                     </div>
                 </div>
             </div>
+            <div class="arrow-container">
+                <img class="arrow" src="./images/arrow.svg" alt="">
+            </div>
         </section>
 
         <section id="contact">
@@ -145,7 +165,6 @@
                 </div>
             </div>
         </section>
-
     </main>
 </body>
 </html>
