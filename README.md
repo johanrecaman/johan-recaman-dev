@@ -1,7 +1,7 @@
-<h1 align="center">PUCPR - Personal Portfolio</h1>
+<h1 align="center">Personal Portfolio</h1>
 
-<p align="center">This is a web project made with HTML, CSS and JavaScript for studying purposes</p>
-<p align="center">This app is on V1.0</p>
+<p align="center">This is a web project made with HTML and CSS to show my work and progress</p>
+<p align="center">This app is on V2.0</p>
 
 <img src="./images/printsite.png"></img>
 
@@ -22,7 +22,7 @@ Made by Johan Stromberg :fire:
 [![Instagram Badge](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_johanrecaman_)
 
 ---
-[Live Server](https://johanrecaman.github.io/pucpr-personal-portfolio/)
+[Live Server](https://johanrecaman.github.io/johan-recaman-dev/)
 
 <h4 align="center">
   🚧  Work In Progress...  🚧
